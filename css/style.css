@@ -1,0 +1,203 @@
+*,*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:  #F2F2F2;
+    background-image: url("../img/Group\ 10.svg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: right;
+}
+#internet {
+    background-image: url("../img/Group\ 10\ Copy.svg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: left bottom;
+}
+ul {
+    list-style: none;
+}
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #6E728E;
+}
+
+.ann-mon {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: right;
+    color: #6E728E;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.spn-list {
+    padding-left: 435px;
+    margin-top: 40px;
+    align-items: center;
+}
+.list-item {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.spn-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 28px;
+    color: #6E728E;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+.big-div {
+    justify-content: center;
+    margin-top: 68px;
+    align-items: center;
+}
+.basic-master {
+    width: 33%;
+    padding: 31px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+    border-radius: 10px 10px 10px 10px;
+}
+.profesional {
+    width: 33%;
+    padding: 51px 31px;
+    background: linear-gradient(135.06deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+    box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+    border-radius: 10px;
+    bottom: 20px;
+}
+.profesional .prof-item{
+    border-bottom: 1px solid #FFFFFF;
+    margin: 0;
+    padding: 12px;
+}
+.top-item {
+    text-align: center;
+    margin: 31px 0;
+}
+.item {
+    text-align: center;
+    margin-top: 25px;
+}
+.text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #6E728E;
+}
+.doll {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -1.2px;
+    margin-right: 8px;
+}
+.in-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 71px;
+    letter-spacing: -2.16px;
+    display: inline-flex;
+    color: #4A4D60;
+}
+.btn {
+    text-align: center;
+    margin-top: 32px;
+}
+.learn {
+    border: none;
+    width: 288px;
+    height: 44px;
+    background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1.39286px;
+    color: #FFFFFF;
+}
+.prof-list {
+    margin-top: 50px;
+}
+.prof-top {
+    text-align: center;
+    padding-bottom: 32px;
+}
+.prof-tit {
+    text-align: center;
+}
+.prof-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.prof-item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid;
+}
+.prof-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 71px;
+    letter-spacing: -2.16px;
+    color: #FFFFFF;
+    align-items: center;
+    display: inline-flex;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+.btn-prof {
+    margin-top: 45px;
+    margin-left: 18px;
+}
+.prof-learn {
+    border: none;
+    width: 288px;
+    height: 44px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    border-radius: 6px;
+    text-align: center;
+    letter-spacing: 1.39286px;
+    color: #6D72DE;
+
+}
+.basic-master .item{
+    border-bottom:1px solid #6E728E;;
+    margin: 0;
+    padding: 12px;
+}
+.item-border{
+    border-top:1px solid #6E728E;;
+}
+.item-border-white {
+    border-top:1px solid #FFFFFF ;
+}
